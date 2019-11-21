@@ -1,0 +1,3 @@
+[submodule "slickMacros"]
+	path = slickMacros
+	url = https://github.com/jporkka/slickMacros.git
