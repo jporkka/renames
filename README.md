@@ -9,8 +9,8 @@ All collections should support the following query parameters (if applicable):
 | query             | -    | -      | -     |
 | ids                | -    | ids    | ids   |
 | _italic_              | names | names  | names |
-| *bold*              | -    | -      | -     |
-| offset             | -    | -      | -     |
+| **bold**              | -    | -      | -     |
+| ~~Strikeout~~             | -    | -      | -     |
 | sort               | -    | -      | -     |
 
 so the foo-bar relationship will support foo_names, foo_ids, bar_names, and bar_ids as query parameters to uniquely identify a record.
