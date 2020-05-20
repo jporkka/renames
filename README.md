@@ -8,8 +8,8 @@ All collections should support the following query parameters (if applicable):
 | abc_def | -    | -      | -     |
 | query             | -    | -      | -     |
 | ids                | -    | ids    | ids   |
-| _names_              | names | names  | names |
-| limit              | -    | -      | -     |
+| _italic_              | names | names  | names |
+| *bold*              | -    | -      | -     |
 | offset             | -    | -      | -     |
 | sort               | -    | -      | -     |
 
