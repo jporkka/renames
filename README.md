@@ -1,17 +1,45 @@
 # Queries1
+
+```powershell
+if ($true) { } 
+param ([Parameter(p1)] $Thing
+# This is a comment
+$Thing = New-Thing -Name Thing1 
+```
+
+Note that the following code block seems to correctly be powershell
+    ```powershell
+    if ($true) { } 
+    param ([Parameter(p1)] $Thing
+    # This is a comment
+    $Thing = New-Thing -Name Thing1                      
+    ```
+
+
+Note that the following code block is colored "markdown code"
+
+    ```powershell
+    if ($true) { } 
+    param ([Parameter(p1)] $Thing
+    # This is a comment
+    $Thing = New-Thing -Name Thing1                      
+    ```
+
 ## Queries2
 ### Query Parameters
+~~Strikeout~~ 
+
 All collections should support the following query parameters (if applicable):
 
-| GET                | POST | DELETE | PATCH |
-|--------------------|------|--------|-------|
-| abc_def | -    | -      | -     |
-| query             | -    | -      | -     |
-| ids                | -    | ids    | ids   |
-| _italic_              | names | names  | names |
-| **bold**              | -    | -      | -     |
-| ~~Strikeout~~             | -    | -      | -     |
-| sort               | -    | -      | -     |
+| GET                | POST  | DELETE | PATCH |
+|--------------------|-------|--------|-------|
+| abc_def            | -     | -      | -     |
+| query              | -     | -      | -     |
+| ids                | -     | ids    | ids   |
+| _italic_           | names | names  | names |
+| **bold**           | -     | -      | -     |
+| ~~Strikeout~~      | -     | -      | -     |
+| sort               | -     | -      | -     |
 
 1: Embedded _italic text_ and this **bold text**
 
