@@ -1,9 +1,14 @@
+Change 2
 ECHO is on.
 #pragma option(pedantic,on)
 #region Imports
 #include "slick.sh"
 #import "listbox.e"
 #import "picture.e"
+   _SetDialogInfoHt("path",path);
+   _SetDialogInfoHt("pBranchName",pBranchName);
+   _SetDialogInfoHt("pRemoteName",pRemoteName);
+   _SetDialogInfoHt("pSVCPullFlags",pSVCPullFlags);
 #import "stdprocs.e"
 #import "svc.e"
 #import "svcautodetect.e"
