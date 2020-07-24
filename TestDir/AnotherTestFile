@@ -1,0 +1,12 @@
+ECHO is on.
+#pragma option(pedantic,on)
+#region Imports
+#include "slick.sh"
+#import "listbox.e"
+#import "picture.e"
+#import "stdprocs.e"
+#import "svc.e"
+#import "svcautodetect.e"
+#import "main.e"
+#endregion
+
